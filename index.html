@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Pomodoro</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Quicksand:500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="container">
+    <section id="title-section">
+      <h1 id="title">Pomo-<span>doro</span></h1>
+    </section>
+
+    <section id="settings">
+      <div id="settings-container">
+        <div id="work-amt-sect" class="setting">
+          <p>Work <span>(minutes)</span></p>
+          <div>
+            <i class="material-icons">keyboard_arrow_left</i>
+            <p id="work-amt">25</p>
+            <i class="material-icons">keyboard_arrow_right</i>
+          </div>
+
+        </div>
+
+        <div id="break-amt-sect" class="setting">
+          <p>Break <span>(minutes)</span></p>
+          <div>
+            <i class="material-icons">keyboard_arrow_left</i>
+            <p id="break-amt">5</p>
+            <i class="material-icons">keyboard_arrow_right</i>
+          </div>
+        </div>
+
+        <div id="round-amt-sect" class="setting">
+          <p>Rounds</p>
+          <div>
+            <i class="material-icons">keyboard_arrow_left</i>
+            <p id="round-amt">3</p>
+            <i class="material-icons">keyboard_arrow_right</i>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <section id="main-display">
+      <div id="timer-and-tools">
+        <h2 id="status" class="initialize">Set your parameters</h2>
+        <h3 id="time">25:00</h3>
+        <div id=buttons>
+          <button type="button" id="butt-start">Start Working</button>
+          <!--<button type="button" id="butt-stop">Pause</button>-->
+          <button type="button" id="butt-reset">Reset</button>
+        </div>
+          
+      </div>
+    </section>
+    
+    <section id="footer">
+      <p>Pomodoro Developed by Jahmzu</p>
+    </section>
+    
+
+  </div>
+
+
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
